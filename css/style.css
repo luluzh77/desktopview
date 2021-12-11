@@ -650,7 +650,7 @@ input[type=text], select, textarea {
 }
 
 .cover-chernobyl {
-    background-image: url("/images/chernobyl2.png");
+    background-image: url("https://luluzh77.github.io/desktopview/images/chernobyl2.png");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -659,7 +659,7 @@ input[type=text], select, textarea {
 }
 
 .cover-snow{
-    background-image: url("/images/snowmobiles.jpeg");
+    background-image: url("https://luluzh77.github.io/desktopview/images/snowmobiles.jpeg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -668,7 +668,7 @@ input[type=text], select, textarea {
 }
 
 .cover-selfcare{
-    background-image: url("/images/withyouapp.png");
+    background-image: url("https://luluzh77.github.io/desktopview/images/withyouapp.png");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -677,7 +677,7 @@ input[type=text], select, textarea {
 }
 
 .cover-elderly{
-    background-image: url("/images/elderly.jpeg");
+    background-image: url("https://luluzh77.github.io/desktopview/images/elderly.jpeg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -964,7 +964,7 @@ input[type=text], select, textarea {
     #hi {
       animation-name: dissolve;
     }
-    
+
     .card:hover .card-container, .card:focus-within .card-container {
           transform: none;
     }
