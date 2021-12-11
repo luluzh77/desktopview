@@ -661,10 +661,9 @@ input[type=text], select, textarea {
     background-image: url("https://luluzh77.github.io/desktopview/images/snowmobiles.jpeg");
     width: 100%;
     height: auto;
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .cover-selfcare{
@@ -966,6 +965,15 @@ input[type=text], select, textarea {
     .cover-selfcare {
 		background-attachment: inherit;
 	}
+
+    .cover-snow{
+        background-image: url("https://luluzh77.github.io/desktopview/images/snowmobiles.jpeg");
+        min-height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
   }
 
   @media (prefers-reduced-motion) {
