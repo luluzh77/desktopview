@@ -668,11 +668,11 @@ input[type=text], select, textarea {
 
 .cover-selfcare{
     background-image: url("https://luluzh77.github.io/desktopview/images/withyouapp.png");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
+    max-height: 500px;
+    background-attachment: scroll;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+/*     background-size: 100% auto; */
 }
 
 .cover-elderly{
