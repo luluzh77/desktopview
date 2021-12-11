@@ -969,4 +969,9 @@ input[type=text], select, textarea {
           transform: none;
     }
 
+    .cover-chernobyl, .cover-elderly, .cover-selfcare, .cover-snow {
+        background-attachment: scroll !important;
+        background-position: center center !important;
+    }
+    
   }
