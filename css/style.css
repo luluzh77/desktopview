@@ -968,7 +968,7 @@ input[type=text], select, textarea {
 
     .cover-snow{
         background-image: url("https://luluzh77.github.io/desktopview/images/snowmobiles.jpeg");
-        min-height: 300px;
+        min-height: 500px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
