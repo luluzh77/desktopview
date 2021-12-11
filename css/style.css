@@ -649,7 +649,8 @@ input[type=text], select, textarea {
 
 .cover-chernobyl {
     background-image: url("https://luluzh77.github.io/desktopview/images/chernobyl2.png");
-    min-height: 500px;
+    width: 100%;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -658,7 +659,9 @@ input[type=text], select, textarea {
 
 .cover-snow{
     background-image: url("https://luluzh77.github.io/desktopview/images/snowmobiles.jpeg");
-    min-height: 500px;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -667,7 +670,9 @@ input[type=text], select, textarea {
 
 .cover-selfcare{
     background-image: url("https://luluzh77.github.io/desktopview/images/withyouapp.png");
-    min-height: 500px;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
