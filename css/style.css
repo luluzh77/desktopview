@@ -662,7 +662,7 @@ input[type=text], select, textarea {
     width: 100%;
     height: auto;
     background-attachment:scroll;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
 }
 
