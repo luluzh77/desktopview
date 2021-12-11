@@ -661,7 +661,6 @@ input[type=text], select, textarea {
     background-image: url("https://luluzh77.github.io/desktopview/images/snowmobiles.jpeg");
     width: 100%;
     height: auto;
-    max-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -670,22 +669,20 @@ input[type=text], select, textarea {
 
 .cover-selfcare{
     background-image: url("https://luluzh77.github.io/desktopview/images/withyouapp.png");
-    width: 100%;
-    height: auto;
-    max-height: 500px;
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 .cover-elderly{
     background-image: url("https://luluzh77.github.io/desktopview/images/elderly.jpeg");
-    min-height: 500px;
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 #self {
@@ -961,6 +958,14 @@ input[type=text], select, textarea {
     .personas_self {
         max-width: 80%;
     }
+
+    .cover-elderly {
+		background-attachment: inherit;
+	}
+
+    .cover-selfcare {
+		background-attachment: inherit;
+	}
   }
 
   @media (prefers-reduced-motion) {
