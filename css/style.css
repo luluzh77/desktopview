@@ -134,6 +134,7 @@ h1 {
     margin-top: 120px;
     padding-bottom: 40px;
     font-size: 1.5rem;
+    color: white;
 }
 
 .projects {
@@ -641,7 +642,6 @@ input[type=text], select, textarea {
     z-index: 1;
     position: absolute;
     top: -40px;
-    
   }
   
 .skip a:focus{
